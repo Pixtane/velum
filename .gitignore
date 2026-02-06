@@ -42,3 +42,6 @@ next-env.d.ts
 
 # db
 supabase/migrations
+## Panda
+styled-system
+styled-system-studio
