@@ -23,14 +23,6 @@
 }
 
 @font-face {
-  font-family: "Lora";
-  src: url("/fonts/Lora-Regular.woff2") format("woff2");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: "Alice";
   src: url("/fonts/Alice-Regular.woff2") format("woff2");
   font-weight: 400;
@@ -51,7 +43,10 @@
 }
 
 .transition-colors {
-  transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke;
-  transition-timing-function: var(--default-transition-timing-function); /* cubic-bezier(0.4, 0, 0.2, 1) */
+  transition-property: color, background-color, border-color, outline-color,
+    text-decoration-color, fill, stroke;
+  transition-timing-function: var(
+    --default-transition-timing-function
+  ); /* cubic-bezier(0.4, 0, 0.2, 1) */
   transition-duration: var(--default-transition-duration); /* 150ms */
 }
