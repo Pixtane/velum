@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Alice, Lora } from "next/font/google";
 import { Body } from "@/components";
-import "./globals.css";
+import "@/styles/globals.css";
+import "@/styles/shake.css";
 
 const alice = Alice({
   weight: ["400"],
